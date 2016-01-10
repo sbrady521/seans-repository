@@ -1,1 +1,2 @@
-This is a test project to help me in learning the ins and outs of github
+This project stores my answers to project euler.
+it is also my attempt at learning to use github.
