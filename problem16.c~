@@ -1,0 +1,10 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int math(){
+  FILE * fPointer;
+  fPointer = fopen("problem16num.txt", "w");
+  fprintf((str)(2>>1000));
+
+  return 0;
+}
