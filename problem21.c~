@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <stdio.h>
+int d(int target);
+
+int math(){
+  
+
+  return 0;
+}
+
+
+int d(int target){
+  int i;
+  int total = 1;
+  for(i = 2 ; i < (target/2) + 1 ; i++){
+    if(target % i == 0){
+      total += i;
+    }
+  }
+  return total;
+
+}

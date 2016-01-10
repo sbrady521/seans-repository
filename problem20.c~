@@ -1,0 +1,21 @@
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+double subject(int target);
+
+int main(){
+  double answer;
+  answer = subject(10);
+  return 0;
+}
+
+
+double subject(int target){
+  int i;
+  double total = (double)target;
+  for(i = (target - 1) ; i > 0 ; i--){
+    total = total * (double)i;
+  }
+
+  return total;
+}
